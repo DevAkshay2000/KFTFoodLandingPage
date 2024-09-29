@@ -1,5 +1,5 @@
-import FooterLogo from "../Assets/images/kft_logo.png";
-import softSvg from "../Assets/images/sofa.png";
+// import FooterLogo from "../Assets/images/kft_logo.png";
+// import softSvg from "../Assets/images/sofa.png";
 import { Link } from "react-router-dom";
 
 function Footer() {
@@ -13,8 +13,8 @@ function Footer() {
 
           <div className="row g-5 mb-5">
             <div className="col-lg-5">
-              <div class="mb-4 footer-logo-wrap">
-                <a href="/" class="footer-logo">
+              <div className="mb-4 footer-logo-wrap">
+                <a href="/" className="footer-logo">
                   KFT FOODS
                 </a>
               </div>
@@ -57,8 +57,8 @@ function Footer() {
             </div>
 
             <div className="col-lg-2">
-              <div class="mb-4 footer-logo-wrap">
-                <a href="#" class="footer-logo">
+              <div className="mb-4 footer-logo-wrap">
+                <a href="#" className="footer-logo">
                   Links
                 </a>
               </div>
@@ -81,8 +81,8 @@ function Footer() {
             </div>
 
             <div className="col-lg-5">
-              <div class="mb-4 footer-logo-wrap">
-                <a href="#" class="footer-logo">
+              <div className="mb-4 footer-logo-wrap">
+                <a href="#" className="footer-logo">
                   Find Us
                 </a>
               </div>

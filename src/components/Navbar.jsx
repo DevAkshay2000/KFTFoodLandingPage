@@ -1,8 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import userSvg from "../Assets/images/user.svg";
-import cartSvg from "../Assets/images/cart.svg";
-import Logo from "../Assets/images/kft_logo.png";
+// import userSvg from "../Assets/images/user.svg";
+// import cartSvg from "../Assets/images/cart.svg";
+// import Logo from "../Assets/images/kft_logo.png";
 
 function Navbar() {
   return (

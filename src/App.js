@@ -11,6 +11,7 @@ import About from "./components/About";
 import Contact from "./components/Contact";
 import Products from "./components/Products";
 import Footer from "./components/Footer";
+import ProductDetails from "./components/ProductDetails";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Route path="/about-kft-foods" element={<About />} />
         <Route path="/contact-us" element={<Contact />} />
         <Route path="/products" element={<Products />} />
+        <Route path="/product-details" element={<ProductDetails />} />
       </Routes>
       <Footer/>
     </>

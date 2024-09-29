@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import couchImg from "../Assets/images/couch.png";
 import crossSvg from "../Assets/images/cross.svg";
 
@@ -31,145 +32,73 @@ function Products() {
           <div className="row">
             {/* <!-- Start Column 1 --> */}
             <div className="col-12 col-md-4 col-lg-3 mb-5">
-              <a className="product-item" href="#">
+              <Link className="product-item" to="/product-details">
                 <img
                   src="images/product-3.png"
                   className="img-fluid product-thumbnail"
                   alt="img1"
                 />
-                <h3 className="product-title">Product</h3>
-                <strong className="product-price">$50.00</strong>
+                <h3 className="product-title">Product 1</h3>
+                <strong className="product-price">₹ 250/-</strong>
 
                 <span className="icon-cross">
                   <img src={crossSvg} className="img-fluid" alt="img1" />
                 </span>
-              </a>
+              </Link>
             </div>
             {/* <!-- End Column 1 --> */}
 
             {/* <!-- Start Column 2 --> */}
             <div className="col-12 col-md-4 col-lg-3 mb-5">
-              <a className="product-item" href="#">
+              <Link className="product-item" to="/product-details">
                 <img
-                  src="images/product-1.png"
+                  src="images/product-3.png"
                   className="img-fluid product-thumbnail"
-                  alt="img2"
+                  alt="img1"
                 />
-                <h3 className="product-title">Product</h3>
-                <strong className="product-price">$50.00</strong>
+                <h3 className="product-title">Product 2</h3>
+                <strong className="product-price">₹ 250/-</strong>
 
                 <span className="icon-cross">
-                  <img src={crossSvg} className="img-fluid" alt="img3" />
+                  <img src={crossSvg} className="img-fluid" alt="img1" />
                 </span>
-              </a>
+              </Link>
             </div>
             {/* <!-- End Column 2 --> */}
 
             {/* <!-- Start Column 3 --> */}
             <div className="col-12 col-md-4 col-lg-3 mb-5">
-              <a className="product-item" href="#">
+              <Link className="product-item" to="/product-details">
                 <img
-                  src="images/product-2.png"
+                  src="images/product-3.png"
                   className="img-fluid product-thumbnail"
                   alt="img1"
                 />
-                <h3 className="product-title">Product 2</h3>
-                <strong className="product-price">$78.00</strong>
+                <h3 className="product-title">Product 3</h3>
+                <strong className="product-price">₹ 250/-</strong>
 
                 <span className="icon-cross">
                   <img src={crossSvg} className="img-fluid" alt="img1" />
                 </span>
-              </a>
+              </Link>
             </div>
             {/* <!-- End Column 3 --> */}
 
             {/* <!-- Start Column 4 --> */}
             <div className="col-12 col-md-4 col-lg-3 mb-5">
-              <a className="product-item" href="#">
+              <Link className="product-item" to="/product-details">
                 <img
                   src="images/product-3.png"
                   className="img-fluid product-thumbnail"
                   alt="img1"
                 />
-                <h3 className="product-title">Ergonomic Chair</h3>
-                <strong className="product-price">$43.00</strong>
+                <h3 className="product-title">Product 4</h3>
+                <strong className="product-price">₹ 250/-</strong>
 
                 <span className="icon-cross">
                   <img src={crossSvg} className="img-fluid" alt="img1" />
                 </span>
-              </a>
-            </div>
-            {/* <!-- End Column 4 --> */}
-
-            {/* <!-- Start Column 1 --> */}
-            <div className="col-12 col-md-4 col-lg-3 mb-5">
-              <a className="product-item" href="#">
-                <img
-                  src="images/product-3.png"
-                  className="img-fluid product-thumbnail"
-                  alt="img1"
-                />
-                <h3 className="product-title">Product</h3>
-                <strong className="product-price">$50.00</strong>
-
-                <span className="icon-cross">
-                  <img src={crossSvg} className="img-fluid" alt="img1" />
-                </span>
-              </a>
-            </div>
-            {/* <!-- End Column 1 --> */}
-
-            {/* <!-- Start Column 2 --> */}
-            <div className="col-12 col-md-4 col-lg-3 mb-5">
-              <a className="product-item" href="#">
-                <img
-                  src="images/product-1.png"
-                  className="img-fluid product-thumbnail"
-                  alt="img1"
-                />
-                <h3 className="product-title">Product</h3>
-                <strong className="product-price">$50.00</strong>
-
-                <span className="icon-cross">
-                  <img src={crossSvg} className="img-fluid" />
-                </span>
-              </a>
-            </div>
-            {/* <!-- End Column 2 --> */}
-
-            {/* <!-- Start Column 3 --> */}
-            <div className="col-12 col-md-4 col-lg-3 mb-5">
-              <a className="product-item" href="#">
-                <img
-                  src="images/product-2.png"
-                  className="img-fluid product-thumbnail"
-                  alt="img1"
-                />
-                <h3 className="product-title">Product 2</h3>
-                <strong className="product-price">$78.00</strong>
-
-                <span className="icon-cross">
-                  <img src={crossSvg} className="img-fluid" />
-                </span>
-              </a>
-            </div>
-            {/* <!-- End Column 3 --> */}
-
-            {/* <!-- Start Column 4 --> */}
-            <div className="col-12 col-md-4 col-lg-3 mb-5">
-              <a className="product-item" href="#">
-                <img
-                  src="images/product-3.png"
-                  className="img-fluid product-thumbnail"
-                  alt="img1"
-                />
-                <h3 className="product-title">Ergonomic Chair</h3>
-                <strong className="product-price">$43.00</strong>
-
-                <span className="icon-cross">
-                  <img src={crossSvg} className="img-fluid" />
-                </span>
-              </a>
+              </Link>
             </div>
             {/* <!-- End Column 4 --> */}
           </div>

@@ -279,15 +279,15 @@ function Home() {
       {/* <!-- End We Help Section --> */}
 
       {/* <!-- Start Popular Product --> */}
-      <div class="popular-product">
-        <div class="container">
-          <div class="row">
-            <div class="col-12 col-md-6 col-lg-4 mb-4 mb-lg-0">
-              <div class="product-item-sm d-flex">
-                <div class="thumbnail">
-                  <img src={productImg1} alt="Image2" class="img-fluid" />
+      <div className="popular-product">
+        <div className="container">
+          <div className="row">
+            <div className="col-12 col-md-6 col-lg-4 mb-4 mb-lg-0">
+              <div className="product-item-sm d-flex">
+                <div className="thumbnail">
+                  <img src={productImg1} alt="Image2" className="img-fluid" />
                 </div>
-                <div class="pt-3">
+                <div className="pt-3">
                   <h3>Product 4</h3>
                   <p>
                     Donec facilisis quam ut purus rutrum lobortis. Donec vitae
@@ -300,12 +300,12 @@ function Home() {
               </div>
             </div>
 
-            <div class="col-12 col-md-6 col-lg-4 mb-4 mb-lg-0">
-              <div class="product-item-sm d-flex">
-                <div class="thumbnail">
-                  <img src={productImg2} alt="Image3" class="img-fluid" />
+            <div className="col-12 col-md-6 col-lg-4 mb-4 mb-lg-0">
+              <div className="product-item-sm d-flex">
+                <div className="thumbnail">
+                  <img src={productImg2} alt="Image3" className="img-fluid" />
                 </div>
-                <div class="pt-3">
+                <div className="pt-3">
                   <h3>Product 5</h3>
                   <p>
                     Donec facilisis quam ut purus rutrum lobortis. Donec vitae
@@ -318,12 +318,12 @@ function Home() {
               </div>
             </div>
 
-            <div class="col-12 col-md-6 col-lg-4 mb-4 mb-lg-0">
-              <div class="product-item-sm d-flex">
-                <div class="thumbnail">
-                  <img src={productImg3} alt="Image5" class="img-fluid" />
+            <div className="col-12 col-md-6 col-lg-4 mb-4 mb-lg-0">
+              <div className="product-item-sm d-flex">
+                <div className="thumbnail">
+                  <img src={productImg3} alt="Image5" className="img-fluid" />
                 </div>
-                <div class="pt-3">
+                <div className="pt-3">
                   <h3>Product 6</h3>
                   <p>
                     Donec facilisis quam ut purus rutrum lobortis. Donec vitae
